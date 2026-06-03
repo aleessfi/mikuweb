@@ -1,7 +1,7 @@
 /* ===== FUENTES ===== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
-/* ===== VARIABLES CSS ===== */
+/* ===== variables ===== */
 :root {
     --primary-color: #2fcdcd;
     --secondary-color: #f3f;
@@ -16,7 +16,7 @@
     --transition-slow: all 0.5s ease;
 }
 
-/* ===== RESET Y ESTILOS BASE ===== */
+/* ===== estilos base ===== */
 * {
     margin: 0;
     padding: 0;
@@ -35,7 +35,7 @@ body {
     overflow-x: hidden;
 }
 
-/* ===== HEADER Y NAVEGACIÓN ===== */
+/* ===== header ===== */
 .header {
     position: fixed;
     top: 0;
@@ -179,7 +179,7 @@ body {
     transform: translateX(-50%) translateY(5px);
 }
 
-/* ===== INVITE SECTION ===== */
+/* ===== seccion de invitacion ===== */
 .invite-section {
     min-height: 100vh;
     display: flex;
@@ -211,7 +211,7 @@ body {
     animation: float 3s ease-in-out infinite;
 }
 
-/* CTA Section */
+/* seccion de llamada a la accion */
 .cta-section {
     text-align: center;
     margin-top: 2rem;
@@ -232,7 +232,7 @@ body {
     margin-top: 2rem;
 }
 
-/* ===== BOTONES ===== */
+/* ===== botones ===== */
 .btn {
     --border-width: 2px;
     --curve-size: 0.5em;
@@ -296,7 +296,7 @@ body {
     font-size: 1.1rem;
 }
 
-/* ===== CATEGORIES SECTION ===== */
+/* ===== seccion de categorias ===== */
 .categories-section {
     padding: 6rem 2rem 4rem;
     max-width: 1200px;
@@ -382,7 +382,7 @@ body {
     color: rgba(255, 255, 255, 0.8);
 }
 
-/* ===== FOOTER ===== */
+/* ===== footer ===== */
 .footer {
     background: rgba(10, 10, 26, 0.9);
     backdrop-filter: blur(10px);
@@ -423,7 +423,7 @@ body {
     text-shadow: 0 0 10px var(--secondary-color);
 }
 
-/* ===== ANIMACIONES ===== */
+/* ===== animaciones uwu ===== */
 @keyframes moveGradient {
     0% { background-position: 31% 0%; }
     50% { background-position: 70% 100%; }
@@ -469,7 +469,7 @@ body {
     }
 }
 
-/* ===== RESPONSIVE DESIGN ===== */
+/* ===== pagina responsive ===== */
 @media screen and (max-width: 1280px) {
     .about-content {
         flex-direction: column;
@@ -570,8 +570,8 @@ body {
     }
 }
 
-/* ===== UTILIDADES ===== */
-/* Ocultar scrollbar pero mantener funcionalidad */
+/* ===== utilidades ===== */
+/* ocultar scrollbar pero mantener funcionalidad */
 body {
     scrollbar-width: thin;
     scrollbar-color: var(--secondary-color) var(--darker-bg);
@@ -590,7 +590,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 5px;
 }
 
-/* ===== CORRECCIONES DE ACCESIBILIDAD ===== */
+/* ===== correcciones de acceso ===== */
 a:focus,
 button:focus,
 input:focus {
@@ -598,7 +598,7 @@ input:focus {
     outline-offset: 2px;
 }
 
-/* Reducción de movimiento para usuarios que lo prefieran */
+/* reduccion de animacion */
 @media (prefers-reduced-motion: reduce) {
     * {
         animation-duration: 0.01ms !important;
